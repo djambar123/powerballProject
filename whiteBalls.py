@@ -11,4 +11,3 @@ class whiteBalls():
         b = sorted(white_ball, reverse=False)
         return b
 
-print(whiteBalls.winning_num())

@@ -7,5 +7,3 @@ class powerBall():
             powerball = random.randint(1, 10)
         return powerball
 
-v = powerBall.powerBall()
-print(v)

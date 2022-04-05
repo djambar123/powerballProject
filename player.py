@@ -9,11 +9,5 @@ class player():
                 num = random.randint(1,20)
             white_ball.append(num)
         B = sorted(white_ball,reverse=False)
-
-        powerball = 0
-        for i in range(1):
-            powerball = random.randint(1,10)
-        B.append(powerball)
         return B
 
-print(player.player_num())
