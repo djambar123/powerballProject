@@ -1,5 +1,5 @@
 import random
-
+# this function return the white balls of the computer
 class whiteBalls():
     def winning_num():
         white_ball = []

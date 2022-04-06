@@ -1,5 +1,5 @@
 import random
-
+# This function return the balls of the player
 class player():
     def player_num():
         white_ball = []

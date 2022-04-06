@@ -1,6 +1,6 @@
 import random
-
-class powerBall():
+# This function return the lat ball "powerball"
+class powerBall:
     def powerBall():
         powerball = 0
         for i in range(1):
