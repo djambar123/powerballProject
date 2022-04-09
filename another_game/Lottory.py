@@ -1,4 +1,4 @@
-from game import Game
+from Game import Game
 import random
 import colorama
 from colorama import Style
@@ -8,7 +8,7 @@ class Lottory(Game):
     def __init__(self, name):
         super().__init__(name)
 
-
+# this function give you the first 5 numbers
     def winning_num(self):
         white_ball = []
         for i in range(0, 5):
@@ -29,6 +29,7 @@ class Lottory(Game):
         B = sorted(white_ball, reverse=False)
         return B
 
+# this function give you the last number (powerball)
     def powerBall(self):
         powerball = 0
         for i in range(1):
@@ -36,6 +37,7 @@ class Lottory(Game):
         return powerball
 
 
+# function that print in color
     def color(self,a, b):
         print(colorama.Fore.MAGENTA, a, colorama.Fore.YELLOW, b, Style.RESET_ALL)
 
